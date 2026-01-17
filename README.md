@@ -93,12 +93,6 @@ npm run dev
 | `GOOGLE_CLIENT_SECRET` | OAuth Client Secret from Google Cloud Console. |
 | `VITE_API_URL` | URL of the backend API (Frontend Only). |
 
-## 📦 Deployment
-
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for a complete step-by-step guide to deploying on:
-*   **Backend:** Render / Railway
-*   **Frontend:** Vercel / Netlify
-*   **Database:** TiDB Cloud
 
 ## 📜 License
 MIT License. Built by **Naveenkumar Koppala**.
