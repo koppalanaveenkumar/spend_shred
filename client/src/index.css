@@ -1,0 +1,90 @@
+:root {
+  /* Premium Dark Theme Palette */
+  --bg-dark: #0a0a0c;
+  --bg-card: #131316;
+  --bg-hover: #1c1c21;
+
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+
+  /* Accents - "Reaper" Vibes */
+  --accent-primary: #ff4d4d;
+  /* Neon Red */
+  --accent-secondary: #ff8c42;
+  /* Orange */
+  --accent-success: #10b981;
+  /* Emerald */
+  --accent-purple: #8b5cf6;
+  /* Violet */
+
+  /* Glassmorphism */
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(19, 19, 22, 0.7);
+
+  /* Spacing & Radius */
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+
+  --font-main: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-hover);
+  border-radius: 4px;
+}
+
+/* Utilities */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+}
+
+.t-gradient {
+  background: linear-gradient(135deg, #fff 0%, #a5a5a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.reaper-gradient {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
