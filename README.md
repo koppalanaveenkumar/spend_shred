@@ -3,8 +3,6 @@
 > **Stop paying for software you don't use.**
 > SpendShred connects to your financial data and email to automatically identify "Zombie Subscriptions"—SaaS tools you pay for but never log into.
 
-![SpendShred Dashboard](client/public/vite.svg)
-
 ## 🚀 Features
 
 *   **🕵️‍♂️ Zombie Detection:** Scans your Gmail for receipts and "We miss you" emails to find unused subscriptions.
